@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		90B728592150874E0057D67A /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 90B728582150874E0057D67A /* main.c */; };
+		90B72862215087C60057D67A /* demo.c in Sources */ = {isa = PBXBuildFile; fileRef = 90B72861215087C60057D67A /* demo.c */; };
+		90B72865215088080057D67A /* sequenceList.c in Sources */ = {isa = PBXBuildFile; fileRef = 90B72864215088080057D67A /* sequenceList.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,9 @@
 
 /* Begin PBXFileReference section */
 		90B728552150874E0057D67A /* DateStructure */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DateStructure; sourceTree = BUILT_PRODUCTS_DIR; };
-		90B728582150874E0057D67A /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		90B72861215087C60057D67A /* demo.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = demo.c; sourceTree = "<group>"; };
+		90B72863215088080057D67A /* sequenceList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sequenceList.h; sourceTree = "<group>"; };
+		90B72864215088080057D67A /* sequenceList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sequenceList.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +44,7 @@
 		90B7284C2150874E0057D67A = {
 			isa = PBXGroup;
 			children = (
-				90B728572150874E0057D67A /* DateStructure */,
+				90B7285F215087760057D67A /* 01LinearList */,
 				90B728562150874E0057D67A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,12 +57,22 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		90B728572150874E0057D67A /* DateStructure */ = {
+		90B7285F215087760057D67A /* 01LinearList */ = {
 			isa = PBXGroup;
 			children = (
-				90B728582150874E0057D67A /* main.c */,
+				90B72860215087A20057D67A /* 01SequenceList */,
 			);
-			path = DateStructure;
+			path = 01LinearList;
+			sourceTree = "<group>";
+		};
+		90B72860215087A20057D67A /* 01SequenceList */ = {
+			isa = PBXGroup;
+			children = (
+				90B72861215087C60057D67A /* demo.c */,
+				90B72863215088080057D67A /* sequenceList.h */,
+				90B72864215088080057D67A /* sequenceList.c */,
+			);
+			path = 01SequenceList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +131,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90B728592150874E0057D67A /* main.c in Sources */,
+				90B72865215088080057D67A /* sequenceList.c in Sources */,
+				90B72862215087C60057D67A /* demo.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
